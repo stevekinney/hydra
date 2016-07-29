@@ -1,0 +1,20 @@
+{
+  "name": "hydra",
+  "version": "1.0.0",
+  "description": "Maybe one day this will be a multi-user version of [Snake][] using WebSockets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/hydra.git"
+  },
+  "keywords": [],
+  "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevekinney/hydra/issues"
+  },
+  "homepage": "https://github.com/stevekinney/hydra#readme"
+}
