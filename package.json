@@ -1,16 +1,37 @@
 {
   "name": "hydra",
   "version": "1.0.0",
-  "description": "Maybe one day this will be a multi-user version of [Snake][] using WebSockets.",
-  "main": "index.js",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "typings install --overwrite --save",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "karma-typescript-preprocessor2": "^1.2.1",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.8",
+    "sinon": "^1.17.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stevekinney/hydra.git"
   },
-  "keywords": [],
+  "keywords": [
+    "game",
+    "websockets",
+    "typescript"
+  ],
   "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
   "license": "ISC",
   "bugs": {
